@@ -1,0 +1,9 @@
+{
+  "name": "@my-lib/core",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "^5.0.0"
+  }
+}

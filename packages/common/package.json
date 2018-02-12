@@ -1,0 +1,11 @@
+{
+  "name": "@my-lib/common",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@my-lib/core": "0.0.0"
+  }
+}

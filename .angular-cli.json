@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "example-lib"
+  },
+  "apps": [
+    {
+      "name": "my-lib",
+      "root": "./",
+      "appRoot": "packages",
+      "outDir": "dist",
+      "assets": [],
+      "index": "demo/index.html",
+      "main": "demo/main.ts",
+      "polyfills": "demo/polyfills.ts",
+      "tsconfig": "tsconfig.app.json",
+      "test": "test.ts",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "ls",
+      "styles": ["demo/styles.scss"],
+      "environmentSource": "demo/environments/environment.ts",
+      "environments": {
+        "dev": "demo/environments/environment.ts",
+        "prod": "demo/environments/environment.prod.ts"
+      }
+    }
+  ],
+  "lint": [
+    {
+      "project": "tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {
+      "inlineTemplate": true,
+      "inlineStyle": true
+    }
+  }
+}

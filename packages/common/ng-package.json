@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "lib": {
+    "flatModuleFile": "common",
+    "entryFile": "index.ts",
+    "umdModuleIds": {
+      "@my-lib/core": "core"
+    },
+    "assets": ["scss/vars.scss"]
+  }
+}

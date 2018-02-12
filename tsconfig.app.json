@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": ["googlemaps"]
+  },
+  "exclude": ["test.ts", "**/*.spec.ts", "node_modules/@my-lib/**/*.spec.ts"],
+  "include": ["demo/**/*.ts", "node_modules/@my-lib/**/*.ts"]
+}
