@@ -1,12 +1,9 @@
 {
   "name": "my-lib",
-  "version": "2.4.3",
+  "version": "0.0.0",
   "license": "MIT",
   "packageScope": "@my-lib",
-  "packages": [
-    "packages/core",
-    "packages/common"
-  ],
+  "packages": ["packages/core", "packages/common"],
   "scripts": {
     "ng": "ng",
     "test": "npm run link-dev && ng test --preserve-symlinks",
@@ -16,7 +13,8 @@
     "serve:dev": "npm run link-dev && ng serve --preserve-symlinks",
     "serve:packaged": "npm run package && ng serve --preserve-symlinks",
     "package": "ts-node tools/package",
-    "release": "npm run package && ts-node ./tools/set-version && ts-node ./tools/build-binary",
+    "release":
+      "npm run package && ts-node ./tools/set-version && ts-node ./tools/build-binary",
     "clean": "ts-node ./tools/clean"
   },
   "private": true,
