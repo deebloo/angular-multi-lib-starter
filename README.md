@@ -1,6 +1,6 @@
-# Angular Module Repo [![CircleCI](https://circleci.com/gh/LiveSafe/lvsf-blocks.svg?style=svg&circle-token=fa0527715521e428609a6897b7881c6f29ee3462)](https://circleci.com/gh/LiveSafe/lvsf-blocks)
+# Angular Multi-Lib Starter
 
-Packages for building front end applications.
+Packages for building Typescript/Angular applications.
 
 #### Module Docs
 
