@@ -11,9 +11,6 @@ Packages for building front end applications.
 
 #### Development
 
-NOTE: Whenver you commit a new build should be generated via a precommit hook. This ensures that all
-commits have a builds to check against
-
 Clone:
 
 ```BASH
